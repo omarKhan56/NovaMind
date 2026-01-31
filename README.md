@@ -1,16 +1,39 @@
-# React + Vite
+NovaMind – AI Chat Assistant
+<div align="center">
+Show Image
+A clean, modern AI chatbot powered by Google Gemini API, built with React.js.
+Ask anything. Get instant answers. No setup hassle.
+<br>
+<img width="874" height="869" alt="Screenshot 2026-02-01 025021" src="https://github.com/user-attachments/assets/59fceb4f-fa0c-436b-8b1d-e37b9abd03bd" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+</div>
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time AI Chat — Instant responses powered by Google Gemini API
+Multi-turn Conversations — Maintains full context across the entire chat
+Markdown Rendering — Supports bold, italic, code blocks, and lists in responses
+Typing Indicator — Animated dots show when the AI is generating a response
+Stop Generation — Cancel a response mid-way with the stop button
+Suggestion Chips — Quick-start prompts on the welcome screen
+Responsive UI — Clean dark-themed design that works on all screen sizes
+Auto-scroll — Chat automatically scrolls to the latest message
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 Folder Structure
+novamind/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.jsx          ← Entry point, renders NovaMind
+│   ├── App.css          ← Empty (styles are inside NovaMind)
+│   ├── main.jsx         ← React root
+│   └── NovaMind.jsx     ← Main app component (all logic + styles)
+├── .env                 ← Your secret Gemini API key (not pushed to GitHub)
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+TechnologyPurposeReact.jsUI framework and component structureJavaScriptApp logic and API handlingGoogle Gemini APIAI model powering the chatbotViteProject bundler and dev serverCSS3Styling and animationsREST APICommunication with Gemini endpoint
