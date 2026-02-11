@@ -11,16 +11,24 @@ Ask anything. Get instant answers. No setup hassle.
 ✨ Features
 
 Real-time AI Chat — Instant responses powered by Google Gemini API
+
 Multi-turn Conversations — Maintains full context across the entire chat
+
 Markdown Rendering — Supports bold, italic, code blocks, and lists in responses
+
 Typing Indicator — Animated dots show when the AI is generating a response
+
 Stop Generation — Cancel a response mid-way with the stop button
+
 Suggestion Chips — Quick-start prompts on the welcome screen
+
 Responsive UI — Clean dark-themed design that works on all screen sizes
+
 Auto-scroll — Chat automatically scrolls to the latest message
 
 
 📂 Folder Structure
+
 novamind/
 ├── public/
 │   └── index.html
