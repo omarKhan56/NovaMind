@@ -8,7 +8,7 @@ Ask anything. Get instant answers. No setup hassle.
 
 </div>
 
-✨ Features
+✨ Features 
 
 Real-time AI Chat — Instant responses powered by Google Gemini API
 
